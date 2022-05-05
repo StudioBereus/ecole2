@@ -1,0 +1,120 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #000000;
+    position: sticky;
+    top: 0px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    border: 2px lightskyblue solid;
+}
+nav ul{
+    width: 100%;
+    margin:0px;
+    padding: 0px;
+    list-style-type: none;
+}
+nav ul li{
+    float:left;
+    width: 24.5%;
+    text-align: center;
+    position:relative;
+}
+nav ul li :first-child{
+    border-top: 1px lightskyblue solid;
+}
+nav ul::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+nav a{
+    display: block;
+
+    text-decoration: none;
+    color: lightskyblue;
+    padding: 0px;
+}
+nav a:hover{
+    color: lightblue;
+    text-decoration: none;
+      padding: 0px;
+
+}
+.sous{
+    
+    margin: 0px;
+    padding: 0px;
+    display:none;
+    box-shadow: 0px 1px 2px lightgrey;
+    background-color: black;
+    position:absolute;
+    left:-2px;
+}
+
+nav>ul li:hover .sous{
+    display: block;
+}
+nav>ul li:hover .rightMenu {
+    display:none;
+}
+ul ul li:hover .rightMenu{
+    display: block;
+}
+.sous li{
+    float: none;
+    width: 100%;
+    text-align: center;
+    border-bottom: 2px lightskyblue solid;
+    border-left: 2px lightskyblue solid;
+    border-right: 2px lightskyblue solid;
+}
+.sous a{ display: block;
+    width: 100%;
+   padding:10px 0px;
+    border-top:  none;
+    background-color: black;
+}
+.sous a:hover{
+    width: 100%;
+    padding:10px 0px;
+    border-top: none;
+    background-color: black;
+}
+.deroulant>a::after{
+    content: "▼" ;
+    font-size: 12px;
+}
+.rightMenu{
+    position:absolute;
+    left: 250px;
+    bottom: -1px;
+    background-color: black;
+    display: block;
+}
+.encadrement_QNS{
+    margin-left:110px;
+    margin-right: 566px;
+    margin-top: 10px;
+    text-align: justify;
+    border: 2px black solid;
+    padding:5px;
+    color: lightskyblue;
+    background-color:black;
+    border-radius: 12px;
+    border:2px lightskyblue solid;
+}
+a{
+    color: whitesmoke;
+}
+.logo{
+    margin-right: 566px;
+    margin-left: 110px;
+    margin-top: 10px;
+}
+

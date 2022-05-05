@@ -1,0 +1,66 @@
+#jeu {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid #000;
+}
+
+thead {
+    background-color: #999;
+}
+
+thead th {
+    text-align: center;
+    /*vertical-align: middle;*/
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    /*height: 100px;*/
+}
+
+tbody tr:nth-child(2n) {
+    background-color: rgb(225, 225, 255);
+}
+
+#max {
+    width: 20%;
+    height: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #000;
+    padding: 0px;
+}
+
+#high {
+    background-color: rgb(0, 57, 0);
+    height: 100px;
+    width: 460px;
+    margin: 0px;
+    color: white;
+    text-align: center;
+    padding-top: 5px;
+}
+
+#middle {
+    position: relative;
+    background-color: #444;
+    width: 460px;
+}
+
+#lower {
+    background-color: #000;
+    height: 60px;
+    width: 460px;
+}
+
+#right {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 100px;
+    background-color: #000;
+    height: 100%;
+    color: white;
+    font-size: 1.8em;
+    font-weight: bold;
+}

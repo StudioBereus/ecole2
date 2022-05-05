@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; metacharset=utf-8" />
+    <title>Evaluation astro DWWM</title>
+    <link rel="stylesheet" href="astro.css" type="text/css" />
+    <script src="astro.js" defer></script>
+</head>
+
+
+<body>
+    <table cellspacing="0" id="general" cellpadding="5px">
+        <tr id="entete">
+            <td>
+                <h1 id="titreP">Astro inscription DWWM</h1>
+            </td>
+        </tr>
+        <tr id="corps" valign="top">
+            <td style="padding-right:40px; padding-left:40px;">
+
+                <div id="centre">
+
+                    <h2 id="child">inscrivez vous !! ici</h2>
+
+                </div>
+                <br />
+
+
+
+                <form id="form1">
+                    <label for="message">Message de votre profil :</label>
+                    <br /><textarea cols="50" rows="5" id="message" name="message" placeholder="votre message ici"></textarea><br />
+                    <br />
+
+                    <label for="nom">Nom:</label>
+
+
+                    <input type="text" id="nom" name="nom" size="10" maxlength="120" /><br />
+                    <br />
+
+                    <label for="prenom">Prenom:</label>
+                    <input type="text" id="prenom" name="prenom" size="10" maxlength="120" /><br />
+                    <br />
+                    <label for="ville">Ville de naissance:</label>
+                    <input type="text" id="ville" name="ville" size="10" maxlength="100" /><br />
+                    <br />
+                    <br />
+
+                    <label>Date de naissance : </label>
+                    <select id="annee" name="annee">
+
+                    </select>
+
+                    <select id="mois" name="mois">
+
+                    </select>
+
+                    <select id="jour" name="jour">
+                        <script language="javascript"></script>
+                    </select><br />
+                    <br />
+                    <label>Votre pseudo :</label><input type="text" id="pseudo" name="pseudo" size="30" maxlength="60" value="votre pseudo" readonly="true" /><br /><br />
+
+
+                    <input type="button" id="validation" value="Valider" disabled="true" />
+
+
+                    <br /><br />
+                    <input type="reset" value="Remise à zéro" /><br /><br />
+
+                </form>
+                <div id="affiche"> </div>
+
+
+            </td>
+
+
+        </tr>
+
+        <tr id="pied">
+            <td>
+
+            </td>
+        </tr>
+
+    </table>
+
+
+</body>
+
+</html>
